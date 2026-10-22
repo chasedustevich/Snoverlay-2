@@ -10,7 +10,7 @@
 			<key>label</key>
 			<string>Snoverlay 2</string>
 			<key>footerText</key>
-			<string>Higher quality increases battery drain, but gives the snowflakes nicer animations</string>
+			<string>Higher quality increases battery drain, but gives the snowflakes nicer animations.</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -113,6 +113,28 @@
 			<string>2</string>
 			<key>PostNotification</key>
 			<string>com.ryannair05.snoverlay/prefsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Changes apply in real-time. Use Respring if needed to restart SpringBoard.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>respring</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>Snoverlay 2 (Rootless) v1.1.0&#xA;Updated by Chase Dustevich&#xA;Originally by Ryan Nair &amp; leftyfl1p</string>
 		</dict>
 	</array>
 	<key>title</key>

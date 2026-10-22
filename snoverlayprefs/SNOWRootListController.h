@@ -2,5 +2,5 @@
 #import <Preferences/PSSpecifier.h>
 
 @interface SNOWRootListController : PSListController
-
+- (void)respring;
 @end
