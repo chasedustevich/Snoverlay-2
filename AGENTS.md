@@ -1,14 +1,14 @@
 # AGENTS.md — Snoverlay 2
 
-Snoverlay 2 is an **iOS jailbreak tweak** built with **Theos**, originally created by Ryan Nair (`ryannair05`, replacing leftyfl1p's original Snoverlay) and modernized for **iOS 15–16+ rootless jailbreaks (Dopamine, Palera1n)** by Chase Dustevich. It renders falling snowflakes on an iPhone, either as a **full-screen overlay** or restricted to the **home/lock screen wallpaper** (`SBFStaticWallpaperView`), with additional support for CarPlay lock-out screens. It includes a **Settings (PreferenceLoader) bundle** that supports live preference updates via Darwin notifications without requiring a respring.
+Snoverlay 2 is an **iOS jailbreak tweak** built with **Theos**, originally created by Ryan Nair (`ryannair05`, replacing leftyfl1p's original Snoverlay) and modernized for **iOS 15–16+ rootless jailbreaks (Dopamine, Palera1n)**. It renders falling snowflakes on an iPhone, either as a **full-screen overlay** or restricted to the **home/lock screen wallpaper** (`SBFStaticWallpaperView`), with additional support for CarPlay lock-out screens. It includes a **Settings (PreferenceLoader) bundle** that supports live preference updates via Darwin notifications without requiring a respring.
 
-- Package ID: `com.chasedustevich.snoverlay` (see `control`, current version `1.1.0`). Conflicts and Replaces `com.ryannair05.snoverlay` and `com.leftyfl1p.snoverlay`.
+- Package ID: `com.ryannair05.snoverlay` (see `control`, current version `1.1.1`). Conflicts and Replaces `com.leftyfl1p.snoverlay` and `com.chasedustevich.snoverlay`.
 - Scheme: **rootless only** (`THEOS_PACKAGE_SCHEME = rootless`, `iphoneos-arm64`, installs under `/var/jb`).
 - Depends on: `mobilesubstrate`, `preferenceloader`, `firmware (>= 15.0)`
 - Primary test environment: Dopamine, iOS 16.5
 - Origin fork: `https://github.com/chasedustevich/Snoverlay-2`
 - Upstream: `https://github.com/ryannair05/Snoverlay-2`
-- Author: Ryan Nair (with attribution to leftyfl1p); modernized by Chase Dustevich
+- Author: Ryan Nair (with attribution to leftyfl1p)
 
 ## Layout
 
@@ -18,7 +18,7 @@ Snoverlay 2 is an **iOS jailbreak tweak** built with **Theos**, originally creat
 | `FallingSnow/XMASFallingSnowView.h/.m` | Snowflake view implementation. Houses both the `CAEmitterLayer` particle engine (default) and the `CABasicAnimation` view-based engine (high quality). Resolves assets via `<rootless.h>`. |
 | `Snoverlay.plist` | Substrate filter. Injects into `com.apple.springboard` and `com.apple.CarPlayApp`. |
 | `Makefile` | Root Theos makefile (tweak + `snoverlayprefs` subproject) targeting iOS 15.0 rootless. |
-| `control` | Debian package control metadata (`iphoneos-arm64`, version 1.1.0). |
+| `control` | Debian package control metadata (`iphoneos-arm64`, version 1.1.1). |
 | `layout/Library/Application Support/Snoverlay/` | Bundled snowflake image assets (`XMASSnowflake.png` and `XMASSnowflake1.png`). |
 | `snoverlayprefs/` | PreferenceLoader bundle `snoverlayprefs` (`SNOWRootListController.h/.m`, Respring helper). |
 | `snoverlayprefs/Resources/Root.plist` | Preference specifiers (switches for enable, wallpaper-only, high quality; slider for snowflake count; segmented control for style; respring button). |
