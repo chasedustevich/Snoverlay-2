@@ -3,7 +3,7 @@ Name: Snoverlay 2
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Conflicts: com.leftyfl1p.snoverlay, com.chasedustevich.snoverlay
 Replaces: com.leftyfl1p.snoverlay, com.chasedustevich.snoverlay
-Version: 1.1.1
+Version: 1.1.0
 Architecture: iphoneos-arm64
 Description: Falling Snowflakes on iOS (rootless, iOS 15+)
 Maintainer: Ryan Nair

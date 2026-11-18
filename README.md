@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/Scheme-Rootless-success.svg" alt="Rootless">
     <img src="https://img.shields.io/badge/Arch-arm64%20%7C%20arm64e-orange.svg" alt="Architecture">
     <img src="https://img.shields.io/badge/Jailbreak-Dopamine%20%7C%20Palera1n-purple.svg" alt="Jailbreak">
-    <img src="https://img.shields.io/badge/Version-1.1.1-brightgreen.svg" alt="Version">
+    <img src="https://img.shields.io/badge/Version-1.1.0-brightgreen.svg" alt="Version">
   </p>
 </div>
 
@@ -17,7 +17,7 @@ This was updated completely by Antigravity Gemini Flash 3.8 High to rootless wit
 
 A lightweight, elegant iOS jailbreak tweak that renders falling snowflakes across your screen. Supports two snowfall modes: restricted directly to your **home/lock screen wallpaper** beneath your app icons, or as a **full-screen passive overlay** over all applications, with dedicated support for CarPlay lockout screens. Includes a Preferences pane in Settings with instant live reloading via Darwin notifications.
 
-Originally created by **Ryan Nair** (`ryannair05`, superseding leftyfl1p's original Snoverlay) and modernized for **iOS 15–16+ rootless jailbreaks (Dopamine, Palera1n)**.
+Originally created by **Ryan Nair** (`ryannair05`, superseding leftyfl1p's original Snoverlay). Modernized and updated to rootless (iOS 15–16+) by **Chase Dustevich** (version 1.1.0).
 
 ---
 
@@ -106,5 +106,5 @@ make package install THEOS_DEVICE_IP=<your-device-ip>
 
 * **Ryan Nair** ([@ryannair05](https://github.com/ryannair05)) — Snoverlay 2 creator, `CAEmitterLayer` engine, CarPlay implementation.
 * **leftyfl1p** — Original Snoverlay tweak creator.
-* **Chase Dustevich** ([@chasedustevich](https://github.com/chasedustevich)) — iOS 15–16+ rootless modernization, `SBWindowScene` implementation, hit-test pass-through architecture, documentation.
+* **Chase Dustevich** ([@chasedustevich](https://github.com/chasedustevich)) — iOS 15–16+ rootless modernization (v1.1.0), `SBWindowScene` implementation, hit-test pass-through architecture, documentation.
 * **Bruno Andrade** — Inspiration for the `CustoWindow` passthrough and scene attachment pattern from S8Edge.
