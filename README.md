@@ -13,11 +13,9 @@
 
 ---
 
-This was updated completely by Antigravity Gemini Flash 3.8 High to rootless with support for ios 15(?)+ on Dopamine. Tested on 16.5. All credit to Ryan Nair and leftyfl1p.
-
 A lightweight, elegant iOS jailbreak tweak that renders falling snowflakes across your screen. Supports two snowfall modes: restricted directly to your **home/lock screen wallpaper** beneath your app icons, or as a **full-screen passive overlay** over all applications, with dedicated support for CarPlay lockout screens. Includes a Preferences pane in Settings with instant live reloading via Darwin notifications.
 
-Originally created by **Ryan Nair** (`ryannair05`, superseding leftyfl1p's original Snoverlay). Modernized and updated to rootless (iOS 15–16+) by **Chase Dustevich** (version 1.1.0).
+Originally created by **Ryan Nair** (`ryannair05`, superseding `leftyfl1p`'s original Snoverlay). Modernized and updated for rootless jailbreaks (iOS 15–16+, tested on Dopamine iOS 16.5) by **Chase Dustevich** (version 1.1.0) with assistance from **Antigravity** (Google DeepMind). All original credit goes to **Ryan Nair** and **leftyfl1p**.
 
 ---
 
@@ -106,5 +104,5 @@ make package install THEOS_DEVICE_IP=<your-device-ip>
 
 * **Ryan Nair** ([@ryannair05](https://github.com/ryannair05)) — Snoverlay 2 creator, `CAEmitterLayer` engine, CarPlay implementation.
 * **leftyfl1p** — Original Snoverlay tweak creator.
-* **Chase Dustevich** ([@chasedustevich](https://github.com/chasedustevich)) — iOS 15–16+ rootless modernization (v1.1.0), `SBWindowScene` implementation, hit-test pass-through architecture, documentation.
+* **Chase Dustevich** ([@chasedustevich](https://github.com/chasedustevich)) — iOS 15–16+ rootless modernization (v1.1.0) with assistance from **Antigravity** (Google DeepMind), `SBWindowScene` implementation, hit-test pass-through architecture, documentation.
 * **Bruno Andrade** — Inspiration for the `CustoWindow` passthrough and scene attachment pattern from S8Edge.
